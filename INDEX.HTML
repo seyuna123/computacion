@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header, nav, footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            margin: 0 5px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        .gallery div {
+            display: inline-block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Tienda de Ropa</h1>
+        <h2>Carátula de Escuela</h2>
+    </header>
+
+    <nav>
+        <a href="javascript:void(0)" onclick="openInNewTab('menu.html')">Menú</a>
+        <a href="javascript:void(0)" onclick="openInNewTab('redes.html')">Redes Sociales</a>
+        <a href="javascript:void(0)" onclick="openInNewTab('galeria.html')">Galería de Fotos</a>
+        
+    </nav>
+
+    <script>
+        function openInNewTab(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+
+    <footer>
+        <p>© 2024 Tienda de Ropa</p>
+    </footer>
+</body>
+</html>
